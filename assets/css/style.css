@@ -18,10 +18,11 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(189,160,147);
     font-weight: 800;
     text-transform : uppercase;
-    letter-spacing : 5px;
-    font-size: 125%;
-    margin-left: 20px;}
-}
+    letter-spacing : 8px;
+    font-size: 25px;
+    padding-left:5px;
+    margin-left: 0px;
+    }
 
 .navbar-brand h1:hover {
     color: rgb(189,160,147);
@@ -33,19 +34,22 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 20px;
 }
 
-.nav-link {
+.navbar a {
     font-family: 'Montserrat', sans-serif;
-    margin-left : 20px;
     font-size: 15px;
     letter-spacing: 2px;
     font-weight: 300;
+    margin-left: 5px;
+    margin-right: 5px;
     text-decoration: none; 
-    color: rgb(189,160,147);
+    color: rgb(189,160,147) !important;
 }
-.nav-link:hover {
-    color: rgb(189,160,147);
+
+.navbar a:hover {
+    color: rgb(189,160,147) !important;
     font-weight : 800;
 }
+
 
 
 /*----Footer */
@@ -85,6 +89,10 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(189,160,147);
     font-size: 20px;
     border-radius: 50%;
+}
+
+.footer-list li {
+    padding-left: -40px;
 }
 
 /*--------Code from Hover.css--*/
