@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(168, 167, 167, 0.2);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ---------------- Navbar */
+
+.active a {
+    font-weight : 800;
+}
+
+.navbar-brand h1 {
+    color: rgb(189,160,147);
+    font-weight: 800;
+    text-transform : uppercase;
+    letter-spacing : 5px;
+    font-size: 125%;
+    margin-left: 20px;}
+}
+
+.navbar-brand h1:hover {
+    color: rgb(189,160,147);
+}
+
+.navbar {
+    background-color: rgb(233,222,216);
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    margin-left : 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-decoration: none; 
+    color: rgb(189,160,147);
+}
+.nav-link:hover {
+    color: rgb(189,160,147);
+    font-weight : 800;
+}
+
+
+/*----Footer */
+
+.page-content {
+    margin-bottom: 80px;
+}
+
+#footer-section {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color:rgb(233,222,216);
+}
+
+.footer-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer-list li {
+    display: inline;
+}
+
+.footer-list a {
+    text-decoration: none;
+}
+
+.footer-list li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 25px;
+    padding-top: 10px;
+    color: rgb(189,160,147);
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+/*--------Code from Hover.css--*/
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/*----------Hero image */
+
+/*--- Code inspired by CSS module "Love Running" of Code Institute */
+
+#hero-image {
+    position: relative;
+    padding: 0;
+    height: 400px;
+    width: 100%;
+    background: url("../images/books.jpg") no-repeat center center;
+}
+
+#hero-text-position {
+    margin: auto;
+    position: relative;
+    top: 160px;
+    width: 50%;
+}
+
+.container-fluid {
+    padding-left:0;
+    padding-right:0;
+}
+
+/*--- End of code inspired by CSS module "Love Running" of Code Institute */
+
+/*----------Titles */
+
+.cover-text h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color:#fafafa;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing : 5px;
+    border: 3px solid  rgb(189,160,147);
+    background-color: rgb(189,160,147, .7);
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(189,160,147);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing : 5px;
+    border-bottom: 1px solid  rgb(189,160,147);
+}
+
+.title-position {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/*-----Texts */
+
+.text {
+    padding: 20px 40px;
+    text-align: center;
+    font-weight: 500;
+    font-size: medium;
+    color: black;
+}
+
+/*-----Every section */
+
+.section-position {
+    border-bottom: 1px solid rgb(189,160,147);
+    margin: auto;
+    padding-top: 30px;
+}
