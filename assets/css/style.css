@@ -331,3 +331,70 @@ h1, h2, h3, h4, h5, h6 {
 .modal-content {
     background-color: rgb(232,232,232);
 }
+
+/*---Meetings list : Code inspired by Code institude Resume project--*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    margin-left:20%;
+    position: relative;
+    color: black;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin:0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background:rgb(189,160,147);
+}
+
+.meeting-items {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.meeting-contact-us {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(189,160,147);
+    border-top: 1px solid rgb(189,160,147);
+}
+
+.meeting-contact-us a {
+    text-decoration: none;
+    color: black;
+}
+
+.meeting-contact-us a:hover{
+    color: #fafafa;
+}
