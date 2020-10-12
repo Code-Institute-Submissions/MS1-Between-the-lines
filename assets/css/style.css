@@ -398,3 +398,33 @@ h1, h2, h3, h4, h5, h6 {
 .meeting-contact-us a:hover{
     color: #fafafa;
 }
+
+/*-------Form--*/
+
+form {
+    margin-top:10px;
+    border: 1px solid rgb(189,160,147);
+    padding: 10%;
+    border-radius: 8px;
+}
+
+.contact-intro {
+    letter-spacing: 3px;
+    color:black;
+    padding-top:10px;
+    border: 1px solid rgb(189,160,147);
+    background-color: rgb(189,160,147, 0.1);
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.contact-intro p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn-position {
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+}
