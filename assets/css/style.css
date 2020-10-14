@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ---------------- Navbar */
 
 .active a {
-    font-weight : 800;
+    font-weight : 800 !important;
 }
 
 .navbar-brand h1 {
@@ -172,14 +172,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-position {
     border-bottom: 1px solid rgb(189,160,147);
-    margin: auto;
     padding-top: 30px;
 }
 
 /*----Communities */
 
 .community-section {
-    margin-left: 80px;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .community-position {
@@ -189,10 +190,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .inside-box h5 {
     color: rgb(210,160,147);
-    font-size: 13px;
+    font-size: medium;
     font-weight: 700;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 4%;
     padding: 5px;
     text-transform: uppercase;
     letter-spacing : 2px;
@@ -209,22 +210,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .inside-box p {
-    font-size: small;
+    font-size: medium;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 5px;
     margin-bottom: 0px;
     margin-right: 2px;
     margin-left:0px;
 }
 
 .box-img {
-    width: 100px;
-    height: 150px;
+    width: 50%;
+    height: 230px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .btn-outline-dark-medium {
@@ -247,8 +248,8 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
     background-color: rgb(250,250,250,0.2);
     border : 2px solid rgb(189,160,147);
-    font-size: small;
-    padding: 5px 7px;
+    font-size: medium;
+    padding: 8px 10px;
     border-radius: 8px;
     font-weight: 700;
 }
@@ -257,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 2%;
 }
 
 .btn-outline-dark:hover {
@@ -267,18 +268,49 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .box {
-    width : 300px;
-    height: 320px;
+    width: 400px;
+    height: 440px;
+    float: left;
+    margin: 30px;
     background-color: rgb(168, 167, 167, 0.05);
     border: 2px solid rgb(189,160,147);
-    float: left;
-    margin: 10px;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .box {
+    width: 100%;
+    height: 100%;
+    margin-left:0px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+  .box-img {
+    width: 70%;
+  }
+
+  .inside-box p {
+      font-size: small;
+  }
+
+  .btn-outline-dark {
+      font-size:small;
+      padding: 5px;
+  }
+  .community-position {
+    padding-top: 0px;
+}
+    .community-intro {
+        margin-bottom:20px;
+    }
 }
 
 /*--------Modal Bootstrap---*/
 
 .modal-dialog {
-    max-width: 50%;
     height: 1000px;
 }
 
@@ -326,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .modal-title {
     color: rgb(210,160,147);
-    font-size: 30px;;
+    font-size: 30px;
     font-weight: 700;
     margin-right:auto;
     margin-left:auto%;
@@ -335,6 +367,21 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing : 2px;
 }
+
+.btn-modal-position {
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+.modal-title {
+      font-size:20px;
+      text-align: center;
+    }
+.modal-body img {
+    width: 70%;
+}
+  }
+
 
 .modal-content {
     background-color: rgb(232,232,232);
@@ -385,27 +432,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
 }
 
-.meeting-contact-us {
-    text-align: center;
-    font-size: large;
-    font-weight: 600;
-    margin-top: 40px;
-    margin-bottom: 0px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgb(189,160,147);
-    border-top: 1px solid rgb(189,160,147);
-}
-
-.meeting-contact-us a {
-    text-decoration: none;
-    color: black;
-}
-
-.meeting-contact-us a:hover{
-    color: #fafafa;
-}
-
 .timeline-item p {
     margin-bottom:10px;
 }
@@ -414,24 +440,64 @@ h1, h2, h3, h4, h5, h6 {
 /*-------Form--*/
 
 form {
-    margin-top:10px;
+    margin: 10px;
     border: 1px solid rgb(189,160,147);
     padding: 10%;
     border-radius: 8px;
 }
 
-.contact-intro {
-    letter-spacing: 3px;
-    color:black;
-    padding-top:10px;
+.contact-meeting {
+    color:rgb(189,160,147);
+    margin-top:20px;
+    padding-top: 20px;
+    padding-bottom:20px;
     border: 1px solid rgb(189,160,147);
-    background-color: rgb(189,160,147, 0.1);
+    border-radius: 8px;
     text-transform: uppercase;
-    margin: 10px;
+    text-align: center;
 }
 
-.contact-intro p {
+.contact-meeting h6 {
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.contact-intro {
+    color:rgb(189,160,147);
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(189,160,147);
+    border-radius: 8px;
+    text-transform: uppercase;
     text-align: center;
+}
+
+
+.contact-meeting a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-meeting a:hover{
+    color: #fafafa;
+}
+
+@media only screen and (max-width: 480px) {
+.contact-intro {
+    width: 60%
+    }
+.row {
+    margin-left:0px;
+    margin-right:0px;
+}
+  }
+
+.contact-intro h6 {
+    text-align: center;
+    letter-spacing: 3px;
     font-weight: 600;
 }
 
