@@ -50,7 +50,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight : 800;
 }
 
+/*----------Index-----*/
 
+.btn-about a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-about a:hover {
+    text-decoration: none;
+    color: #fafafa;
+}
 
 /*----Footer */
 
