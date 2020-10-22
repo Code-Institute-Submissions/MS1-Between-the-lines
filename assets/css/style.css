@@ -52,12 +52,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /*----------Index-----*/
 
-.btn-about a {
+.anchor-about {
     text-decoration: none;
     color: black;
 }
 
-.btn-about a:hover {
+.anchor-about:hover {
     text-decoration: none;
     color: #fafafa;
 }
@@ -99,10 +99,6 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(189,160,147);
     font-size: 20px;
     border-radius: 50%;
-}
-
-.footer-list li {
-    padding-left: -40px;
 }
 
 /*--------Code from Hover.css--*/
@@ -248,7 +244,40 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+.anchor-outline-dark-medium {
+    font-size:medium;
+    text-transform:capitalize;
+    color: black;
+    background-color: rgb(250,250,250,0.2);
+    border : 2px solid rgb(189,160,147);
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.anchor-outline-dark-medium:hover {
+    color: #fafafa;
+    background-color: rgb(189,160,147);
+    border : 2px solid rgb(189,160,147);
+}
+
 .btn-outline-dark-medium:hover {
+    color: #fafafa;
+    background-color: rgb(189,160,147);
+    border : 2px solid rgb(189,160,147);
+}
+
+.anchor-outline-dark {
+    color: black;
+    background-color: rgb(250,250,250,0.2);
+    border : 2px solid rgb(189,160,147);
+    font-size: medium;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.anchor-outline-dark:hover {
     color: #fafafa;
     background-color: rgb(189,160,147);
     border : 2px solid rgb(189,160,147);
@@ -371,15 +400,18 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
     font-weight: 700;
     margin-right:auto;
-    margin-left:auto%;
+    margin-left:auto;
     margin-top: 5px;
     padding: 5px;
     text-transform: uppercase;
     letter-spacing : 2px;
 }
 
-.btn-modal-position {
+
+.anchor-modal-position {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 480px) {
