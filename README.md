@@ -6,7 +6,7 @@ Through this website the customer can chose the kind of literature he is the mos
 Then, according to a preselected topic, the website suggests a book to read every month and organize an online meeting related this book.
 
 
- # UX
+# UX
 
 This website is for people that want to share their interests and get the best of what they read. 
 Every meeting will be organized for 45 minutes with a mentor in charge of asking the first questions and leading the debate.
@@ -23,7 +23,7 @@ As a site owner, I want to build a list of customers interested in joining a mee
 As a site owner, I want to inform the customers about the meetings that are organized regarding every topics and which books are preselected.
 As a site owner, I want to suggest and present different topics to target a large scope of readers.
 
- # Wireframe
+# Wireframe
 
 I used Balsamic to build my wireframe prior to the website coding.
 The idea was to get an idea of what sections I would build and what design I would roughly create.
