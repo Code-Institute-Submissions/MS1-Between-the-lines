@@ -26,13 +26,13 @@ As a site owner, I want to suggest and present different topics to target a larg
 I used [Balsamic](https://balsamiq.com/) to build my wireframe prior to the website coding.
 The idea was to get an idea of what sections I would build and what design I would roughly create.
 
-[Balsamic Wireframe Desktop](documentation/wireframe/milestoneverscomputer.pdf)
+* [Balsamic Wireframe Desktop](documentation/wireframe/milestoneverscomputer.pdf)
 
 I firstly create my wireframe regarding the computer version. After my last meeting with my mentor, I learnt from my error and create another wireframes for phone/tablet versions:
 
-[Balsamic Wireframe Phone](documentation/wireframe/milestoneversphone.pdf)
+* [Balsamic Wireframe Phone](documentation/wireframe/milestoneversphone.pdf)
 
-[Balsamic Wireframe Phone](documentation/wireframe/milestoneverstablette.pdf)
+* [Balsamic Wireframe Phone](documentation/wireframe/milestoneverstablette.pdf)
 
 # Features 
 
@@ -134,6 +134,7 @@ My website was deployed as bellow :
 - I clicked on the settings icon 
 - From the GitHub Pages section, I selected 'Master branch' in the dropdown
 - My project is then deployed there : 
+[Between the Lines](https://valentinelgd.github.io/MS1-Between-the-lines/)
 
 * Credit
 
