@@ -88,43 +88,43 @@ _W3C HTML Validator_ - I run my codes through the validator :
 _W3C CSS Validator_ 
 - css.style : no errors identified
 
-* As a customer, I want to navigate easily thought Between the Lines
-- A navigation on the top right of the screen synthesis the main section of the website : About, Find your Community, Meetings and Contact us.
-- The customer can click into one of the social network icons inside the footer of each pages. Clicking on one of the icon will load another page in the customer browser leading directly to each social network concerned.  
-- Clicking on the title of the website "Between the lines" will bring back the user to the About page.
+_As a customer, I want to navigate easily thought Between the Lines_
+A navigation on the top right of the screen synthesis the main section of the website : About, Find your Community, Meetings and Contact us.
+The customer can click into one of the social network icons inside the footer of each pages. Clicking on one of the icon will load another page in the customer browser leading directly to each social network concerned.  
+Clicking on the title of the website "Between the lines" will bring back the user to the About page.
 
-* As a customer, I want to be able to understand quickly the goals of the web
-- Through the main page, the About page, as a customer I can quickly understand the aim of the website by reading the description.
-- For the customer to get into further details and discover what topics, meetings and books are concerned, the About page also provide a link to the Find your community page
+_As a customer, I want to be able to understand quickly the goals of the web_
+Through the main page, the About page, as a customer I can quickly understand the aim of the website by reading the description.
+For the customer to get into further details and discover what topics, meetings and books are concerned, the About page also provide a link to the Find your community page
 
-* As a customer, I want to be able to find a meeting that fits with my interests 
-- The Find your community page suggests a panel of topics the user can be interested in. 
+_As a customer, I want to be able to find a meeting that fits with my interests_
+The Find your community page suggests a panel of topics the user can be interested in. 
 A small box for each topic provides the topic's name, the cover and references of the book selected for the month and the date of the next meeting related to each topic.
 A button at the bottom of each box allows the user to get more details. By clicking on the button, a modal appears which gives:
 1. a quick description of the topic 
 2. a summary of the book selected for the month
 3. a section directing the customer to the Contact us page to join the community or ask questions
 
-* As a customer, I want to be quickly able to see what meetings are organized next 
-- In the Meetings page the customer can see a timeline that quickly lists all the meetings to come. Books, date, and location of every meeting is displayed each time. 
-- Again, for every meeting/book concerned, the customer can get more details by clicking on the "Learn more" button. 
+_As a customer, I want to be quickly able to see what meetings are organized next_
+In the Meetings page the customer can see a timeline that quickly lists all the meetings to come. Books, date, and location of every meeting is displayed each time. 
+Again, for every meeting/book concerned, the customer can get more details by clicking on the "Learn more" button. 
 If the customer clicks on the button, the modals described in the Find your community page will appear. 
 If the customer wants to close the modal, he can easily rather click on both the cross at the top on the right, or in the close button at the bottom right of the modal, or - in desktop and tablet format - click outside of the modal. The customer will then come back to the Find your community page and be able to follow his navigation.
 
-* As a customer, I want to be able to contact Between the lines to join a meeting or ask any questions
-- A contact form appears in the Contact us page, allowing the customer to join the community after sending his name/surname/email and principal interests.
-- The email has to be provided under the format "x@x.x" otherwise, it won't be accepted and submitted
-- The customer can chose his principal interests between a list of topics the website covers. A radio button allows the user to easily select one or more interests.
-- A submit button is at the end of the form. By clicking on it, the customer submits his information and the page is reloaded.
+_As a customer, I want to be able to contact Between the lines to join a meeting or ask any questions_
+A contact form appears in the Contact us page, allowing the customer to join the community after sending his name/surname/email and principal interests.
+The email has to be provided under the format "x@x.x" otherwise, it won't be accepted and submitted
+The customer can chose his principal interests between a list of topics the website covers. A radio button allows the user to easily select one or more interests.
+A submit button is at the end of the form. By clicking on it, the customer submits his information and the page is reloaded.
 
 I especially tested twice the following to be sure features work properly : 
-- Responsive versions of the website 
-- Logo text in navigation bar to be sure it brings the customer back to the index.html page
-- About, Community, Meetings and Contact links in navigation bar to make sure links work properly
-- Social Media icons in Footer to be sure they were correct links and open in another page
-- Contact Us link on Community page, modals and Meetings page to be sure the link works properly
-- Find your community link on the About page to be sure the link works properly
-- Every close features in the modals (cross on the bottom right, close button on the bottom right) to ensure they work properly
+* Responsive versions of the website 
+* Logo text in navigation bar to be sure it brings the customer back to the index.html page
+* About, Community, Meetings and Contact links in navigation bar to make sure links work properly
+* Social Media icons in Footer to be sure they were correct links and open in another page
+* Contact Us link on Community page, modals and Meetings page to be sure the link works properly
+* Find your community link on the About page to be sure the link works properly
+* Every close features in the modals (cross on the bottom right, close button on the bottom right) to ensure they work properly
 
 * Deployment
 
