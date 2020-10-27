@@ -152,9 +152,9 @@ _Acknowledgements_
 
 Thank you to my mentor, Aaron, who gave me a lot of advices and support this project.
 
-A big thank you to Michelle Clément - I inspired my redaction of this README.md document by reading ! [her own](https://github.com/michellelclement/yoga-flow-ms1)
+A big thank you to Michelle Clément - I inspired my redaction of this README.md document by reading [her own](https://github.com/michellelclement/yoga-flow-ms1)
 
 Eventually I  received help for my code by reading answers from questions on the websites:
 
-! [W3schools.com](https://www.w3schools.com/)
-! [Stack Overflow](https://stackoverflow.com/)
+[W3schools.com](https://www.w3schools.com/)
+[Stack Overflow](https://stackoverflow.com/)
