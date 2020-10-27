@@ -23,20 +23,20 @@ As a site owner, I want to suggest and present different topics to target a larg
 
 # Wireframe
 
-I used [Balsamic] (https://balsamiq.com/) to build my wireframe prior to the website coding.
+I used [Balsamic](https://balsamiq.com/) to build my wireframe prior to the website coding.
 The idea was to get an idea of what sections I would build and what design I would roughly create.
 
-![Balsamic Wireframe Desktop](documentation/wireframe/milestoneverscomputer.pdf)
+[Balsamic Wireframe Desktop](documentation/wireframe/milestoneverscomputer.pdf)
 
 I firstly create my wireframe regarding the computer version. After my last meeting with my mentor, I learnt from my error and create another wireframes for phone/tablet versions:
 
-![Balsamic Wireframe Phone](documentation/wireframe/milestoneversphone.pdf)
+[Balsamic Wireframe Phone](documentation/wireframe/milestoneversphone.pdf)
 
-![Balsamic Wireframe Phone](documentation/wireframe/milestoneverstablette.pdf)
+[Balsamic Wireframe Phone](documentation/wireframe/milestoneverstablette.pdf)
 
 # Features 
 
-For all features, I mainly used [Bootstrap] (https://getbootstrap.com/) codes. Here are the details :
+For all features, I mainly used [Bootstrap](https://getbootstrap.com/) codes. Here are the details :
 
 _Navigation_ : I use the simple and clear navigation code suggests in Bootstrap. All sections are presented to ease the user
 experience and direct to relevant links when clicked.
@@ -56,16 +56,16 @@ so as, with his personal log-in, he would become a real member of the community 
 * CSS 
 * HTML
 * Javascript to implement the Modal template from Boostrap
-* ! [Bootstrap] (https://getbootstrap.com/)
-* ! [Fontawesome] (https://fontawesome.com/)
-* ! [Hover.css] (https://ianlunn.github.io/Hover/)
-* ! [Googlefonts] (https://fonts.google.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Fontawesome](https://fontawesome.com/)
+* [Hover.css](https://ianlunn.github.io/Hover/)
+* [Googlefonts](https://fonts.google.com/)
 
 # Tools used
 
-* ! [Bootstrap] (https://getbootstrap.com/)
-* ! [W3C HTML Validator] (https://validator.w3.org/)
-* ! [W3C CSS Validator]  (https://jigsaw.w3.org/css-validator/)
+* [Bootstrap](https://getbootstrap.com/)
+* [W3C HTML Validator](https://validator.w3.org/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 # Project set up
 
@@ -141,7 +141,7 @@ _Content_
 All texts were written by myself to fit with this website's goals.
 
 _Images_
-Hero image in About page comes from ![Pixabay](https://pixabay.com/fr/) 
+Hero image in About page comes from [Pixabay](https://pixabay.com/fr/) 
 
 After realizing at the end of my project, that using books covers' images could lead to copywrite issues, I eventually used icons from [Fontawesome](https://fontawesome.com/) to illustrate the Community page and modals related to every book's section.
 
@@ -149,9 +149,9 @@ _Acknowledgements_
 
 Thank you to my mentor, Aaron, who gave me a lot of advices and support this project.
 
-A big thank you to Michelle Clément - I inspired my redaction of this README.md document by reading ! [her own] (https://github.com/michellelclement/yoga-flow-ms1)
+A big thank you to Michelle Clément - I inspired my redaction of this README.md document by reading ! [her own](https://github.com/michellelclement/yoga-flow-ms1)
 
 Eventually I  received help for my code by reading answers from questions on the websites:
 
-! [W3schools.com] (https://www.w3schools.com/)
-! [Stack Overflow] (https://stackoverflow.com/)
+! [W3schools.com](https://www.w3schools.com/)
+! [Stack Overflow](https://stackoverflow.com/)
