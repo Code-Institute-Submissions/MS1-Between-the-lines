@@ -8,7 +8,6 @@ Then, according to a preselected topic, the website suggests a book to read ever
 # UX
 
 This website is for people that want to share their interests and get the best of what they read. 
-Every meeting will be organized for 45 minutes with a mentor in charge of asking the first questions and leading the debate.
 
 _External users goals_:
 As a customer, I want to discover the different topics the meetings are organized around. 
@@ -27,7 +26,12 @@ As a site owner, I want to suggest and present different topics to target a larg
 I used [Balsamic] (https://balsamiq.com/) to build my wireframe prior to the website coding.
 The idea was to get an idea of what sections I would build and what design I would roughly create.
 
-![Balsamic Wireframe](documentation/wireframe/Milestone1.pdf)
+![Balsamic Wireframe Desktop](documentation/wireframe/milestoneverscomputer.pdf)
+
+I firstly create my wireframe regarding the computer version. After my last meeting with my mentor, I learnt from my error and create another wireframes for phone/tablet versions:
+
+![Balsamic Wireframe Phone](documentation/wireframe/milestoneversphone.pdf)
+![Balsamic Wireframe Phone](documentation/wireframe/milestoneverstablette.pdf)
 
 # Features 
 
@@ -69,6 +73,8 @@ Thus, I always forgot to add the documentation through "git add ." before commit
 When I finally realized my mistake after re-watching the relevant videos on Code institute lessons, I started this new repositary, trying not to make that mistake anymore.
 This reason explains in this repository, most of the commits related to index.html, meeting.html and community.html are done with few times intervals.
 
+I also realized at the end of my project that using pictures of books covers could lead to copyright issues. I then, replace all of them by icons instead.
+
 # Tests
 
 _W3C HTML Validator_ - I run my codes through the validator :
@@ -102,7 +108,7 @@ A button at the bottom of each box allows the user to get more details. By click
 - In the Meetings page the customer can see a timeline that quickly lists all the meetings to come. Books, date, and location of every meeting is displayed each time. 
 - Again, for every meeting/book concerned, the customer can get more details by clicking on the "Learn more" button. 
 If the customer clicks on the button, the modals described in the Find your community page will appear. 
-If the customer wants to close the modal, he can easily rather click on both the cross at the top on the right, or in the close button at the bottom right of the modal, or, in desktop and tablet format, click outside of the modal. The customer will then come back to the Find your community page and be able to follow his navigation.
+If the customer wants to close the modal, he can easily rather click on both the cross at the top on the right, or in the close button at the bottom right of the modal, or - in desktop and tablet format - click outside of the modal. The customer will then come back to the Find your community page and be able to follow his navigation.
 
 * As a customer, I want to be able to contact Between the lines to join a meeting or ask any questions
 - A contact form appears in the Contact us page, allowing the customer to join the community after sending his name/surname/email and principal interests.
@@ -110,7 +116,14 @@ If the customer wants to close the modal, he can easily rather click on both the
 - The customer can chose his principal interests between a list of topics the website covers. A radio button allows the user to easily select one or more interests.
 - A submit button is at the end of the form. By clicking on it, the customer submits his information and the page is reloaded.
 
-// Full test documentation
+I especially tested twice the following to be sure features work properly : 
+- Responsive versions of the website 
+- Logo text in navigation bar to be sure it brings the customer back to the index.html page
+- About, Community, Meetings and Contact links in navigation bar to make sure links work properly
+- Social Media icons in Footer to be sure they were correct links and open in another page
+- Contact Us link on Community page, modals and Meetings page to be sure the link works properly
+- Find your community link on the About page to be sure the link works properly
+- Every close features in the modals (cross on the bottom right, close button on the bottom right) to ensure they work properly
 
 * Deployment
 
@@ -129,7 +142,7 @@ All texts were written by myself to fit with this website's goals.
 _Images_
 Hero image in About page comes from [Pixabay](https://pixabay.com/fr/) 
 
-After realizing at the end of my project, that using books covers' images could lead to copywrite issues, I eventually used images from [Pixabay](https://pixabay.com/fr/) to illustrate the Community page and modals related to every book's section.
+After realizing at the end of my project, that using books covers' images could lead to copywrite issues, I eventually used icons from [Fontawesome](https://fontawesome.com/) to illustrate the Community page and modals related to every book's section.
 
 _Acknowledgements_
 
