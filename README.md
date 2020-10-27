@@ -32,7 +32,7 @@ I firstly create my wireframe regarding the computer version. After my last meet
 
 * [Balsamic Wireframe Phone](documentation/wireframe/milestoneversphone.pdf)
 
-* [Balsamic Wireframe Phone](documentation/wireframe/milestoneverstablette.pdf)
+* [Balsamic Wireframe Tablet ](documentation/wireframe/milestoneverstablette.pdf)
 
 # Features 
 
@@ -156,5 +156,5 @@ A big thank you to Michelle Clément - I inspired my redaction of this README.md
 
 Eventually I  received help for my code by reading answers from questions on the websites:
 
-[W3schools.com](https://www.w3schools.com/)
-[Stack Overflow](https://stackoverflow.com/)
+* [W3schools.com](https://www.w3schools.com/)
+* [Stack Overflow](https://stackoverflow.com/)
