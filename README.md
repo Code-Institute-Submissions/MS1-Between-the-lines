@@ -76,7 +76,7 @@ This reason explains in this repository, most of the commits related to index.ht
 
 I also realized at the end of my project that using pictures of books covers could lead to copyright issues. I then, replace all of them by icons instead.
 
-# Tests
+# Tests W3C Validators
 
 _W3C HTML Validator_ - I run my codes through the validator :
 
@@ -87,6 +87,8 @@ _W3C HTML Validator_ - I run my codes through the validator :
 
 _W3C CSS Validator_ 
 - css.style : no errors identified
+
+# Tests UX
 
 _As a customer, I want to navigate easily thought Between the Lines_
 * A navigation on the top right of the screen synthesis the main section of the website : About, Find your Community, Meetings and Contact us.
@@ -126,17 +128,17 @@ _I especially tested twice the following to be sure features work properly_ :
 * Find your community link on the About page to be sure the link works properly
 * Every close features in the modals (cross on the bottom right, close button on the bottom right) to ensure they work properly
 
-* Deployment
+# Deployment
 
 My website was deployed as bellow :
 
-- From my GitHub account I went to my repository MS1 Between the lines
-- I clicked on the settings icon 
-- From the GitHub Pages section, I selected 'Master branch' in the dropdown
-- My project is then deployed there : 
+* From my GitHub account I went to my repository MS1 Between the lines
+* I clicked on the settings icon 
+* From the GitHub Pages section, I selected 'Master branch' in the dropdown
+* My project is then deployed there : 
 [Between the Lines](https://valentinelgd.github.io/MS1-Between-the-lines/)
 
-* Credit
+# Credit
 
 _Content_
 All texts were written by myself to fit with this website's goals.
