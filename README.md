@@ -121,12 +121,15 @@ _As a customer, I want to be able to contact Between the lines to join a meeting
 
 _I especially tested twice the following to be sure features work properly_ : 
 * Responsive versions of the website 
+* Website tested throught Mozilla and Chrome browsers
 * Logo text in navigation bar to be sure it brings the customer back to the index.html page
 * About, Community, Meetings and Contact links in navigation bar to make sure links work properly
 * Social Media icons in Footer to be sure they were correct links and open in another page
 * Contact Us link on Community page, modals and Meetings page to be sure the link works properly
 * Find your community link on the About page to be sure the link works properly
 * Every close features in the modals (cross on the bottom right, close button on the bottom right) to ensure they work properly
+
+You can find the details of the full test performed on this project [here](documentation/test/fulltest_doc.pdf). 
 
 # Deployment
 
