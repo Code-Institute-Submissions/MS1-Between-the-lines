@@ -144,8 +144,9 @@ h1, h2, h3, h4, h5, h6 {
 #hero-image {
     position: relative;
     padding: 0;
-    height: 345px;
+    height: 400px;
     width: 100%;
+    background-size: cover;
     background: url("../images/books.jpg") no-repeat center center;
 }
 
@@ -155,6 +156,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 160px;
     width: 50%;
 }
+
 
 .cover-text h1 {
     padding: 10px;
@@ -390,6 +392,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.element-style {
+    padding-right:0 !important;
 }
 
 @media only screen and (max-width: 480px) {
