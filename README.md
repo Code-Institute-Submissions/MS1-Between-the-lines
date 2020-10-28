@@ -129,7 +129,7 @@ _I especially tested twice the following to be sure features work properly_ :
 * Find your community link on the About page to be sure the link works properly
 * Every close features in the modals (cross on the bottom right, close button on the bottom right) to ensure they work properly
 
-You can find the details of the full test performed on this project [here](documentation/test/fulltest_doc.pdf). 
+You can find the details of the full test performed (with screenshots) on this project [here](documentation/test/fulltest_doc.pdf). 
 
 # Deployment
 
